@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contactform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0e6fa;
+    height: 100vh;
+}
+span {
+  display:none;
+}
+[type="email"]:invalid + span {
+  display:block;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 25rem;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.form h2{
+    padding: 20px;
+    margin-right: 12rem;
+    color:#4e5ccd;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.name{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 13px;
+   
+}
+.name input{
+   Width: 9.5rem;
+   padding:10px 15px;
+   border-radius: 7px;
+   border:none;
+   background-color: #e8e9ff;
+   color:#2b37b9;
+
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.email{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 11px
+}
+.email input{
+   Width: 10rem;
+   padding:10px;
+   border-radius: 7px;
+   border:none;
+   background-color: #dde1ff;
+   color:#2b37b9;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.address{
+   width: 21.7rem;
+    padding:14px;
+   border-radius: 8px;
+   background-color: #c7cdfd;
+   color:#2b37b9;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   border: none;
+}
+.textt{
+    width: 21.7rem;
+    border-radius:7px;
+    padding: 16px;
+    background-color: #a4b1fc;
+    color:#2b37b9;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border:none;
+}
+.btn{
+    padding: 9px;
+    border:none;
+    border-radius: 20px;
+    width: 6rem;
+    background-color: #223bf1;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form p{
+    padding: 20px;
+    margin-right: 14rem;
+    font-size: 0.8rem;
+    color:rgb(21, 228, 21);
+}
